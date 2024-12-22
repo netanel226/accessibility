@@ -187,6 +187,13 @@ body.dark-mode #themeToggleBtn:hover {
 
 }
 
+.navbar-nav .nav-link.active {
+    border-bottom: 3px solid #185867; /* קו תחתון בצבע כחול */
+    font-weight: bold; /* טקסט מודגש */
+    color: #1e6677; /* צבע הטקסט */
+}
+
+
 /* הגדרות למכשירים בעלי רוחב מסך מינימלי */
 @media only screen and (min-width: 768px) {
     main {
